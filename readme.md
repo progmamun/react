@@ -1,6 +1,6 @@
-# **Mastering_reactjs**
+# **Mastering_React**
 
-## advanced:
+## Advanced:
 
 ### Handling side effects with the useEffect() Hook
 
@@ -9,3 +9,7 @@
 ## useEffect()
 
 ![2022-03-24_10-21](https://user-images.githubusercontent.com/67066348/159841819-51cddb64-998c-4dd7-b98c-17760770158c.png)
+
+## useReducer()
+
+![2022-03-25_09-40](https://user-images.githubusercontent.com/67066348/160064057-914728ef-c11c-4c7c-8e36-885d5802be11.png)
