@@ -13,3 +13,5 @@
 ## useReducer()
 
 ![2022-03-25_09-40](https://user-images.githubusercontent.com/67066348/160064057-914728ef-c11c-4c7c-8e36-885d5802be11.png)
+
+![useR](https://user-images.githubusercontent.com/67066348/160082667-48aa788b-6c5c-47dc-95da-11c717564977.png)
