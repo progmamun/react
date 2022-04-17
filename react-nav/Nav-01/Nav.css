@@ -1,20 +1,20 @@
 .Navbar {
-  height: 60px;
+  height: 78px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #5265c4;
+  background: transparent;
 }
 
 .Navbar > .nav-logo {
-  font-weight: 700;
-  font-size: 21px;
-  margin: 15px;
-  color: #ffffff;
+  display: inline-block;
+  width: 185px;
+  height: 140px;
+  padding: 15px 0;
 }
 
-.Navbar > .nav-items > a {
-  color: #ffffff;
+.Navbar > .nav-items > .link {
+  color: var(--text-dark);
   font-size: 16px;
   text-decoration: none;
   margin: 15px;
@@ -22,22 +22,22 @@
   opacity: 0.9;
 }
 
-.Navbar > .nav-items > a:hover {
+.Navbar > .nav-items > .link:hover {
   opacity: 1;
 }
 
-.Navbar > .nav-items > a::before {
+.Navbar > .nav-items > .link::before {
   content: '';
   position: absolute;
   left: 0;
   bottom: 0;
   width: 0;
   height: 2px;
-  background: #ffffff;
+  background: var(--text);
   transition: all 0.45s;
 }
 
-.Navbar > .nav-items > a:hover::before {
+.Navbar > .nav-items > .link:hover::before {
   width: 100%;
 }
 
@@ -45,7 +45,7 @@
   display: none;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .Navbar > .nav-items {
     position: absolute;
     top: 60px;
@@ -59,7 +59,7 @@
     transition: all 0.45s;
   }
 
-  .Navbar > .nav-items > a::before {
+  .Navbar > .nav-items > .link::before {
     background: transparent;
   }
 
